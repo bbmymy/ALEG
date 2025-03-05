@@ -1,9 +1,11 @@
 start
 new a number
 set a 3
-loop umno (i<11)
-  new i
-  set i 1
+new i number
+set i 1
+new limit number
+set limit 11
+loop stolbik (i<limit)
   log "3*" >> i >> "=" >> a
   set a a+3
   set i i+1
