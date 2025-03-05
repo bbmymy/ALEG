@@ -1,29 +1,11 @@
-start 
-new number one
-new number two
-new number three
-new number four
-new number five
-new number six 
-new number seven
-new number eight
-new number nine
-one = 1
-two = 2
-three = 3
-four = 4
-five = 5
-six = 6
-seven = 7
-eight = 8
-nine = 9
-log string one >> "*" >> one >> "=1"
-log string one >> "*" >> two >> "=2"
-log string one >> "*" >> three >> "=3"
-log string one >> "*" >> four >> "=4"
-log string one >> "*" >> five >> "=5"
-log string one >> "*" >> six >> "=6"
-log string one >> "*" >> seven >> "=7"
-log string one >> "*" >> eight >> "=8"
-log string one >> "*" >> nine >> "=9"
+start
+new a number
+set a 3
+loop umno (i<11)
+  new i
+  set i 1
+  log "3*" >> i >> "=" >> number
+  set number number+7
+  set i i+1
+end umno
 finish
