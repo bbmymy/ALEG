@@ -4,10 +4,10 @@ new string I
 new string N
 new string G
 new string O
-B  "B"
-I  "I"
-N  "N"
-G  "G"
-O  "O"
+set B  "B"
+set I  "I"
+set N  "N"
+set G  "G"
+set O  "O"
 log string B >> "-" >> I >> "-" >> N >> "-" >> G >> "-" >> O
 finish
