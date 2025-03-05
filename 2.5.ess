@@ -5,7 +5,7 @@ new i number
 set i 1
 new limit number
 set limit 11
-loop stolbik (i<limit)
+loop stolbik (limit>i)
   log "3*" >> i >> "=" >> a
   set a a+3
   set i i+1
